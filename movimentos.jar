@@ -1,0 +1,31 @@
+package metodos;
+
+//import javax.swing.JOptionPane;
+
+
+public class Chars {
+	String nome;
+	int level;
+	int ataque;
+	int defesa;
+	int esquiva;
+		
+		
+	
+	void mostrarStatus() {
+		System.out.format("Duelista: %s Lvl %d com %d de atributo.", nome , level , ataque );
+		//JOptionPane.showMessageDialog(null,"");
+	
+	}
+		void ataque (String alvo) {
+			System.out.format("%s atacou %s e causou %d de dano.\n", nome, alvo, ataque);
+		}
+		void defende (String alvo) {
+			System.out.format("%s defendeu %s %d do dano\n", nome, alvo, defesa );
+		
+		}
+		void esquiva (String alvo) {
+			System.out.format("%s esquivou do %s\n", nome, alvo);
+		
+		}
+}
