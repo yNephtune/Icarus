@@ -1,0 +1,38 @@
+package metodos;
+import javax.swing.JOptionPane;
+
+public class App {
+	
+		
+
+	public static void main(String[] args) {
+		Chars duelista = new Chars();
+		duelista.nome = "Ìcarus";
+		duelista.level = 7;
+		duelista.ataque = 27;
+		duelista.defesa = 13;
+		duelista.esquiva = 10;
+		
+		Chars ladroes = new Chars ();
+		ladroes.nome = "Ladroes";
+		ladroes.level = 7;
+		ladroes.ataque = 20;
+		ladroes.defesa = 10;
+		ladroes.esquiva = 8;
+		
+		
+		Chars monstros = new Chars();
+		monstros.nome = "Minotauro";
+		monstros.level = 10;
+		monstros.ataque = 30;
+		monstros.defesa = 20;
+		monstros.esquiva = 15;
+		
+		Chars divindades = new Chars();
+		divindades.nome = "Apollo";
+		divindades.level = 20;
+		divindades.ataque = 50;
+		divindades.defesa = 35;
+		divindades.esquiva = 27;
+					
+		System.out.println("Bem vindo "+ duelista.nome);
