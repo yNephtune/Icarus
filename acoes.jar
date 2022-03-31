@@ -34,5 +34,11 @@ public class App {
 		divindades.ataque = 50;
 		divindades.defesa = 35;
 		divindades.esquiva = 27;
-					
-		System.out.println("Bem vindo "+ duelista.nome);
+		
+		
+		Batalha batalha = new Batalha();
+		batalha.batalhar(duelista, monstros);
+
+	}
+
+}
