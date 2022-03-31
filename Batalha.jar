@@ -1,0 +1,18 @@
+package metodos;
+
+public class Batalha {
+	
+	Chars primeiroChar;
+	Chars segundoChar;
+	
+	public Batalha() {
+		
+	}
+	
+	public void batalhar(Chars primeiroChar, Chars segundoChar) {
+		this.primeiroChar = primeiroChar;
+		this.segundoChar = segundoChar;
+		System.out.println(this.primeiroChar.nome + " X " + this.segundoChar.nome);
+	}
+
+}
